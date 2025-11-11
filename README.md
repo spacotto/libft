@@ -64,45 +64,17 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 > [!NOTE]
 > A **linked list** in C is a **linear data structure** where elements (called **nodes**) are stored in **non-contiguous memory locations**. Each node contains (1) the **data** stored within and (2) a **pointer** to the next node in the sequence.
 
-- `ft_lstnew`
-  - Creates a new node.
-
-- `ft_lstadd_front`
-  - Adds the node `new` at the beginning of the list.
-
-- `ft_lstsize`
-  - Counts the number of nodes in the list.
-
-- `ft_lstlast`
-  - Returns the last node of the list.
-
-- `ft_lstadd_back`
-  - Adds the node `new` at the end of the list.
-
-- `ft_lstdelone`
-  - Takes a node as a parameter and frees its content using the function `del`. Free the node itself, but does NOT free the next node.
-
-- `ft_lstclear`
-  - Deletes and frees the given node and all its successors, using the function `del` and `free(3)`. Finally, set the pointer to the list to NULL.
-
-- `ft_lstiter`
-  - Iterates through the list `lst` and applies the function `f` to the content of each node.
-
-- `ft_lstmap`
-  - Iterates through the list `lst`, applies the function `f` to each node’s content, and creates a new list as a result.                          |
+| **Function Name** | **Description**                                                                                                                                |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | 
+| `ft_lstnew`       | Creates a new node.                                                                                                                            |
+| `ft_lstadd_front` | Adds the node `new` at the beginning of the list.                                                                                              |
+| `ft_lstsize`      | Counts the number of nodes in the list.                                                                                                        |
+| `ft_lstlast`      | Returns the last node of the list.                                                                                                             |
+| `ft_lstadd_back`  | Adds the node `new` at the end of the list.                                                                                                    |
+| `ft_lstdelone`    | Takes a node as a parameter and frees its content using the function `del`. Free the node itself, but does NOT free the next node.             |
+| `ft_lstclear`     | Deletes and frees the given node and all its successors, using the function `del` and `free(3)`. Finally, set the pointer to the list to NULL. |
+| `ft_lstiter`      | Iterates through the list `lst` and applies the function `f` to the content of each node.                                                      |
+| `ft_lstmap`       | Iterates through the list `lst`, applies the function `f` to each node’s content, and creates a new list as a result.                          |
 
 > [!TIP]
 > The order of the functions follows a specific logic. Pay attention to it!
-
-
-
-
-
-
-
-
-
-
-
-
-
