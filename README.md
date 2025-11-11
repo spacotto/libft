@@ -7,7 +7,7 @@ A comprehensive and reusable C programming library re-implementing foundational 
 The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 1. **Part 1:** Recreate a set of functions from the official C library.
 2. **Part 2:** Create a customised set of functions.
-3. **Part 3:** Create a set functions designed to introduc you to **linked lists**.
+3. **Part 3:** Create a set functions designed to introduce you to **linked lists**.
 
 ## Table of Contents
 
@@ -103,4 +103,5 @@ These functions are specifically designed to teach you the basics of **linked li
 | `ft_lstmap`       | Iterates through the list `lst`, applies the function `f` to each node’s content, and creates a new list as a result.                          |
 > [!TIP]
 > The order of the functions follows a specific logic. Pay attention to it!
+
 
