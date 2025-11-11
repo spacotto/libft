@@ -21,6 +21,8 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 ## Part 1
 | **Function Name** | **Description**                                                                                  |
 | ----------------- | ------------------------------------------------------------------------------------------------ | 
+| **Character is...?**                                                                                                 |
+| ----------------- | ------------------------------------------------------------------------------------------------ | 
 | `ft_isalpha`      | Checks if a character is an alphabet (a-z, A-Z).                                                 |
 | `ft_isdigit`      | Checks if a character is a decimal digit (0-9).                                                  |
 | `ft_isalnum`      | Checks if a character is alphanumeric (a-z, A-Z, 0-9).                                           |
@@ -112,6 +114,7 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 
 > [!TIP]
 > The order of the functions follows a specific logic. Pay attention to it!
+
 
 
 
