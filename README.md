@@ -88,11 +88,17 @@ A **linked list** in C is a **linear data structure** where elements (called **n
 > Conventionally, a pointer named **HEAD** is used to traverse the list.
 
 ### Linked Lists OR Arrays?
-| Feature                | Arrays                                                              | Linked Lists                                                 |
-| :--------------------- | :------------------------------------------------------------------ | :----------------------------------------------------------- |
-| **Memory Allocation**  | Contiguous (adjacent memory locations).                             | Non-contiguous (nodes can be anywhere in memory).            |
-| **Size**               | Fixed (must be specified at creation, though dynamic arrays exist). | Dynamic (can grow or shrink easily at runtime).              |
-| **Access**             | **O(1)** (Direct access via index).                                 | **O(n)** (Must traverse from the start/head).                |
-| **Insertion/Deletion** | **O(n)** (Requires shifting elements).                              | **O(1)** (Requires updating pointers, if position is known). |
-| **Memory Usage**       | Less overhead (only data elements).                                 | Higher overhead (data element + pointer(s) per node).        |
-| **Cache Friendliness** | High (due to locality of reference).                                | Low (nodes are scattered in memory).                         |
+| Feature                | Arrays                                                              | Linked Lists                                          |
+| :--------------------- | :------------------------------------------------------------------ | :---------------------------------------------------- |
+| **Memory Allocation**  | Contiguous (adjacent memory locations).                             | Non-contiguous (nodes can be anywhere in memory).     |
+| **Size**               | Fixed (must be specified at creation, though dynamic arrays exist). | Dynamic (can grow or shrink easily at runtime).       |
+| **Access**             | Direct access via index.                                            | Must traverse from the start/head.                    |
+| **Insertion/Deletion** | Requires shifting elements.                                         | Requires updating pointers, if position is known.     |
+| **Memory Usage**       | Less overhead (only data elements).                                 | Higher overhead (data element + pointer(s) per node). |
+| **Cache Friendliness** | High (due to locality of reference).                                | Low (nodes are scattered in memory).                  |
+
+When to use **ARRAYS**? 
+- Implementing look-up tables, matrices, or when the size is known.
+
+When to use **LINKED LISTS**? 
+- Implementing queues, stacks, or when frequent insertions/deletions are needed.
