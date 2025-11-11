@@ -21,7 +21,8 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 ## Part 1
 - `ft_isalpha`
   - Checks if a character is an alphabet (a-z, A-Z).
-- `ft_isdigit`  | Checks if a character is a decimal digit (0-9).
+- `ft_isdigit`
+-   Checks if a character is a decimal digit (0-9).
 - `ft_isalnum`  | Checks if a character is alphanumeric (a-z, A-Z, 0-9).
 - `ft_isascii`  | Checks if a character is a 7-bit ASCII character.
 - `ft_isprint`  | Checks if a character is printable, including space.
@@ -69,6 +70,7 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 - `ft_lstmap`       | Iterates through the list `lst`, applies the function `f` to each node’s content, and creates a new list as a result.                          |
 > [!TIP]
 > The order of the functions follows a specific logic. Pay attention to it!
+
 
 
 
