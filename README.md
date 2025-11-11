@@ -1,5 +1,5 @@
 # Libft
-Build a comprehensive and reusable C programming library by re-implementing foundational functions, thereby deepening understanding of their mechanics and creating an essential toolkit for future projects.
+A comprehensive and reusable C programming library re-implementing foundational functions, thereby deepening understanding of their mechanics and creating an essential toolkit for future projects.
 
 > [!CAUTION]
 > The structure of the project (and thus the Makefile) is custom. The Makefile required by the subject is much simpler.
@@ -103,3 +103,4 @@ These functions are specifically designed to teach you the basics of **linked li
 | `ft_lstmap`       | Iterates through the list `lst`, applies the function `f` to each node’s content, and creates a new list as a result.                          |
 > [!TIP]
 > The order of the functions follows a specific logic. Pay attention to it!
+
