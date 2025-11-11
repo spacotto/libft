@@ -19,31 +19,31 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 > Some functions have been changed after passing the Moulinette! They might not be norm-compliant or subject-compliant! Never trust code blindly!
 
 ## Part 1
-| **Function Name** | **Description**                                           |
-| ----------------- | --------------------------------------------------------- | 
-| `ft_isalpha`      | Checks if a character is an alphabet (a-z, A-Z).          |
-| `ft_isdigit`      | Checks if a character is a decimal digit (0-9).           |
-| `ft_isalnum`      | Checks if a character is alphanumeric (a-z, A-Z, 0-9).    |
-| `ft_isascii`      | Checks if a character is a 7-bit ASCII character.         |
-| `ft_isprint`      | Checks if a character is printable, including space.      |
-| `ft_toupper`      | Converts a lowercase letter to its uppercase equivalent.  |
-| `ft_tolower`      | Converts an uppercase letter to its lowercase equivalent. |
-| `ft_atoi`         | Converts a string to an integer.                          |
-| `ft_memset`       | Fills a block of memory with a specific byte value.                                         |
-| `ft_bzero`        | Sets a block of memory to all zeros. (Note: This is similar to `memset` with a value of 0). |
-| `ft_memcpy`       | Copies a block of memory from a source to a destination. |
-| `ft_memmove`      | Copies a block of memory, handling overlapping source and destination regions safely. |
-| `ft_memchr`       | Scans a block of memory for the first occurrence of a specific character. |
-| `ft_memcmp`       | Compares two blocks of memory. |
-| `ft_strlen`       | Calculates the length of a string, excluding the null terminator. |
-| `ft_strlcpy`      | Copies a string with a size limit, ensuring the destination is null-terminated. |
-| `ft_strlcat`      | Appends a string with a size limit, ensuring the destination is null-terminated. |
-| `ft_strchr`       | Locates the first occurrence of a character in a string. |
-| `ft_strrchr`      | Locates the last occurrence of a character in a string. |
-| `ft_strncmp`      | Compares two strings up to a specified number of characters. |
-| `ft_strnstr` | Locates the first occurrence of a substring within a string, searching up to a specified length. |
-| `ft_strdup` | Duplicates a string by allocating new memory and copying the contents. |
-| `ft_calloc` | Allocates a block of memory for an array and initialises all bytes to zero. |
+| **Function Name** | **Description**                                                                                  |
+| ----------------- | ------------------------------------------------------------------------------------------------ | 
+| `ft_isalpha`      | Checks if a character is an alphabet (a-z, A-Z).                                                 |
+| `ft_isdigit`      | Checks if a character is a decimal digit (0-9).                                                  |
+| `ft_isalnum`      | Checks if a character is alphanumeric (a-z, A-Z, 0-9).                                           |
+| `ft_isascii`      | Checks if a character is a 7-bit ASCII character.                                                |
+| `ft_isprint`      | Checks if a character is printable, including space.                                             |
+| `ft_toupper`      | Converts a lowercase letter to its uppercase equivalent.                                         |
+| `ft_tolower`      | Converts an uppercase letter to its lowercase equivalent.                                        |
+| `ft_atoi`         | Converts a string to an integer.                                                                 |
+| `ft_memset`       | Fills a block of memory with a specific byte value.                                              |
+| `ft_bzero`        | Sets a block of memory to all zeros. (Note: This is similar to `memset` with a value of 0).      |
+| `ft_memcpy`       | Copies a block of memory from a source to a destination.                                         |
+| `ft_memmove`      | Copies a block of memory, handling overlapping source and destination regions safely.            |
+| `ft_memchr`       | Scans a block of memory for the first occurrence of a specific character.                        |
+| `ft_memcmp`       | Compares two blocks of memory.                                                                   |
+| `ft_strlen`       | Calculates the length of a string, excluding the null terminator.                                |
+| `ft_strlcpy`      | Copies a string with a size limit, ensuring the destination is null-terminated.                  |
+| `ft_strlcat`      | Appends a string with a size limit, ensuring the destination is null-terminated.                 |
+| `ft_strchr`       | Locates the first occurrence of a character in a string.                                         |
+| `ft_strrchr`      | Locates the last occurrence of a character in a string.                                          |
+| `ft_strncmp`      | Compares two strings up to a specified number of characters.                                     |
+| `ft_strnstr`      | Locates the first occurrence of a substring within a string, searching up to a specified length. |
+| `ft_strdup`       | Duplicates a string by allocating new memory and copying the contents.                           |
+| `ft_calloc`       | Allocates a block of memory for an array and initialises all bytes to zero.                      |
 
 ## Part 2
 - `ft_substr`
@@ -112,6 +112,7 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 
 > [!TIP]
 > The order of the functions follows a specific logic. Pay attention to it!
+
 
 
 
