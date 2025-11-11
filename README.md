@@ -21,8 +21,6 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 ## Part 1
 | **Function Name** | **Description**                                                                                  |
 | ----------------- | ------------------------------------------------------------------------------------------------ | 
-| **Character is...?**                                                                                                 |
-| ----------------- | ------------------------------------------------------------------------------------------------ | 
 | `ft_isalpha`      | Checks if a character is an alphabet (a-z, A-Z).                                                 |
 | `ft_isdigit`      | Checks if a character is a decimal digit (0-9).                                                  |
 | `ft_isalnum`      | Checks if a character is alphanumeric (a-z, A-Z, 0-9).                                           |
@@ -48,38 +46,19 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 | `ft_calloc`       | Allocates a block of memory for an array and initialises all bytes to zero.                      |
 
 ## Part 2
-- `ft_substr`
-  - Allocates memory and returns a substring from a source, given the substring start and size.
-
-- `ft_strjoin`
-  - Allocates memory and returns a new string, which is the result of concatenating `s1` and `s2`.
-
-- `ft_strtrim`
-  - Allocates memory and returns a copy of `s1` with characters from `set` removed from the beginning and the end.
-
-- `ft_split`
-  - Allocates memory and returns an array of strings obtained by splitting `s` using the character `c` as a delimiter.
-
-- `ft_itoa`
-  - Allocates memory and converts an integer to a string.
-
-- `ft_striteri`
-  - Applies the function `f` to each character of the string passed as argument. It acts directly on the source.
-
-- `ft_strmapi`
-  - Applies the function `f` to each character of the string passed as argument, and returns a new string as a result.
-
-- `ft_putchar_fd`
-  - Outputs the character `c` to the specified file descriptor.
-
-- `ft_putstr_fd`
-  - Outputs the string `s` to the specified file descriptor.
-
-- `ft_putendl_fd`
-  - Outputs the string `s` to the specified file descriptor followed by a newline.
-
-- `ft_putnbr_fd`
-  - Outputs the integer `n` to the specified file descriptor.
+| **Function Name** | **Description**                                                                                                    |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `ft_substr`       | Allocates memory and returns a substring from a source, given the substring start and size.                        |
+| `ft_strjoin`      | Allocates memory and returns a new string, which is the result of concatenating `s1` and `s2`.                     |
+| `ft_strtrim`      | Allocates memory and returns a copy of `s1` with characters from `set` removed from the beginning and the end.     |
+| `ft_split`        | Allocates memory and returns an array of strings obtained by splitting `s` using the character `c` as a delimiter. |
+| `ft_itoa`         | Allocates memory and converts an integer to a string.                                                              |
+| `ft_striteri`     | Applies the function `f` to each character of the string passed as argument. It acts directly on the source.       |
+| `ft_strmapi`      | Applies the function `f` to each character of the string passed as argument, and returns a new string as a result. |
+| `ft_putchar_fd`   |  Outputs the character `c` to the specified file descriptor.                                                       |
+| `ft_putstr_fd`    | Outputs the string `s` to the specified file descriptor.                                                           |
+| `ft_putendl_fd`   | Outputs the string `s` to the specified file descriptor followed by a newline.                                     |
+| `ft_putnbr_fd`    | Outputs the integer `n` to the specified file descriptor.                                                          |
 
 ## Bonus Part
 > [!NOTE]
@@ -114,6 +93,7 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 
 > [!TIP]
 > The order of the functions follows a specific logic. Pay attention to it!
+
 
 
 
