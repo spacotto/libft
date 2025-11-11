@@ -123,6 +123,9 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
   - Outputs the integer `n` to the specified file descriptor.
 
 ## Bonus Part
+> [!NOTE]
+> A **linked list** in C is a **linear data structure** where elements (called **nodes**) are stored in **non-contiguous memory locations**. Each node contains (1) the **data** stored within and (2) a **pointer** to the next node in the sequence.
+
 - `ft_lstnew`
   - Creates a new node.
 
@@ -152,6 +155,7 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 
 > [!TIP]
 > The order of the functions follows a specific logic. Pay attention to it!
+
 
 
 
