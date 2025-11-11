@@ -20,7 +20,7 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 
 ## Part 1
 | **Function Name** | **Description**                                                                                  |
-| ----------------- | ------------------------------------------------------------------------------------------------ | 
+| :---------------- | :----------------------------------------------------------------------------------------------- | 
 | `ft_isalpha`      | Checks if a character is an alphabet (a-z, A-Z).                                                 |
 | `ft_isdigit`      | Checks if a character is a decimal digit (0-9).                                                  |
 | `ft_isalnum`      | Checks if a character is alphanumeric (a-z, A-Z, 0-9).                                           |
@@ -47,7 +47,7 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 
 ## Part 2
 | **Function Name** | **Description**                                                                                                    |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------ |
+| :---------------- | :----------------------------------------------------------------------------------------------------------------- |
 | `ft_substr`       | Allocates memory and returns a substring from a source, given the substring start and size.                        |
 | `ft_strjoin`      | Allocates memory and returns a new string, which is the result of concatenating `s1` and `s2`.                     |
 | `ft_strtrim`      | Allocates memory and returns a copy of `s1` with characters from `set` removed from the beginning and the end.     |
@@ -65,7 +65,7 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 > The order of the functions follows a specific logic. Pay attention to it!
 
 | **Function Name** | **Description**                                                                                                                                |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | 
+| :---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- | 
 | `ft_lstnew`       | Creates a new node.                                                                                                                            |
 | `ft_lstadd_front` | Adds the node `new` at the beginning of the list.                                                                                              |
 | `ft_lstsize`      | Counts the number of nodes in the list.                                                                                                        |
@@ -85,6 +85,14 @@ A **linked list** in C is a **linear data structure** where elements (called **n
 - **Sequential access:** To reach the desired node, it must traverse all the nodes before.
 
 > [!NOTE]
-> Conventionally, a pointer names **HEAD** is used to traverse the list.
+> Conventionally, a pointer named **HEAD** is used to traverse the list.
 
 ### Linked Lists OR Arrays?
+| Feature                | Arrays                                                              | Linked Lists                                                 |
+| :--------------------- | :------------------------------------------------------------------ | :----------------------------------------------------------- |
+| **Memory Allocation**  | Contiguous (adjacent memory locations).                             | Non-contiguous (nodes can be anywhere in memory).            |
+| **Size**               | Fixed (must be specified at creation, though dynamic arrays exist). | Dynamic (can grow or shrink easily at runtime).              |
+| **Access**             | **O(1)** (Direct access via index).                                 | **O(n)** (Must traverse from the start/head).                |
+| **Insertion/Deletion** | **O(n)** (Requires shifting elements).                              | **O(1)** (Requires updating pointers, if position is known). |
+| **Memory Usage**       | Less overhead (only data elements).                                 | Higher overhead (data element + pointer(s) per node).        |
+| **Cache Friendliness** | High (due to locality of reference).                                | Low (nodes are scattered in memory).                         |
