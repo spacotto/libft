@@ -61,8 +61,8 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 | `ft_putnbr_fd`    | Outputs the integer `n` to the specified file descriptor.                                                          |
 
 ## Bonus Part
-> [!NOTE]
-> A **linked list** in C is a **linear data structure** where elements (called **nodes**) are stored in **non-contiguous memory locations**. Each node contains (1) the **data** stored within and (2) a **pointer** to the next node in the sequence.
+> [!TIP]
+> The order of the functions follows a specific logic. Pay attention to it!
 
 | **Function Name** | **Description**                                                                                                                                |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | 
@@ -76,5 +76,15 @@ The original 42 project is divided into 3 parts (2 mandatory and 1 bonus).
 | `ft_lstiter`      | Iterates through the list `lst` and applies the function `f` to the content of each node.                                                      |
 | `ft_lstmap`       | Iterates through the list `lst`, applies the function `f` to each node’s content, and creates a new list as a result.                          |
 
-> [!TIP]
-> The order of the functions follows a specific logic. Pay attention to it!
+### What's a linked list?
+A **linked list** in C is a **linear data structure** where elements (called **nodes**) are stored in **non-contiguous memory locations**. Each node contains (1) the **data** stored within and (2) a **pointer** to the next node in the sequence.
+
+### Key Characteristics
+- **Dynamic size:** Unlike arrays, linked lists can grow or shrink during runtime.
+- **Non-contiguous memory:** Nodes are scattered in memory, connected by pointers.
+- **Sequential access:** To reach the desired node, it must traverse all the nodes before.
+
+> [!NOTE]
+> Conventionally, a pointer names **HEAD** is used to traverse the list.
+
+### Linked Lists OR Arrays?
